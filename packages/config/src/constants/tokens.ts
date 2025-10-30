@@ -73,6 +73,11 @@ export const WRAPPED_NATIVE_CURRENCIES: Record<SupportedChainId, TokenInfo> = {
     name: 'Wrapped BNB',
     symbol: 'WBNB',
   }),
+  [SupportedChainId.HYPER_EVM_TESTNET]: getWrappedTokenForChain(
+    SupportedChainId.HYPER_EVM_TESTNET,
+    '0xADcb2f358Eae6492F61A5F87eb8893d09391d160', // Placeholder - update with actual wrapped ETH address
+    wrappedNativeCurrencyEth,
+  ),
 }
 
 function getWrappedTokenForChain(

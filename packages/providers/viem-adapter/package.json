@@ -24,7 +24,7 @@
     "@cowprotocol/sdk-common": "workspace:*"
   },
   "peerDependencies": {
-    "viem": "^2.28.4"
+    "viem": "^2.38.5"
   },
   "devDependencies": {
     "@cow-sdk/typescript-config": "workspace:*",

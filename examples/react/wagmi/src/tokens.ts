@@ -64,4 +64,11 @@ export const USDC_TOKENS: Record<SupportedChainId, TokenInfo> = {
     name: 'USD Coin',
     symbol: 'USDC',
   },
+  [SupportedChainId.HYPER_EVM_TESTNET]: {
+    chainId: SupportedChainId.HYPER_EVM_TESTNET,
+    address: '0xd9CBEC81df392A88AEff575E962d149d57F4d6bc', // Placeholder - update with actual USDC address
+    decimals: 6,
+    name: 'USD Coin',
+    symbol: 'USDC',
+  },
 }

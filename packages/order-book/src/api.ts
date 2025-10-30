@@ -33,6 +33,7 @@ import { EnrichedOrder } from './types'
 
 const PROD_BASE_URL = 'https://api.cow.fi'
 const STAGING_BASE_URL = 'https://barn.api.cow.fi'
+const LOCAL_BASE_URL = 'http://localhost:8080'
 
 /**
  * An object containing *production* environment base URLs for each supported `chainId`.
@@ -48,6 +49,7 @@ export const ORDER_BOOK_PROD_CONFIG: ApiBaseUrls = {
   [SupportedChainId.AVALANCHE]: `${PROD_BASE_URL}/avalanche`,
   [SupportedChainId.LENS]: `${PROD_BASE_URL}/lens`,
   [SupportedChainId.BNB]: `${PROD_BASE_URL}/bnb`,
+  [SupportedChainId.HYPER_EVM_TESTNET]: `${PROD_BASE_URL}/hyper-evm-testnet`,
 }
 
 /**
@@ -63,6 +65,7 @@ export const ORDER_BOOK_STAGING_CONFIG: ApiBaseUrls = {
   [SupportedChainId.AVALANCHE]: `${STAGING_BASE_URL}/avalanche`,
   [SupportedChainId.LENS]: `${STAGING_BASE_URL}/lens`,
   [SupportedChainId.BNB]: `${STAGING_BASE_URL}/bnb`,
+  [SupportedChainId.HYPER_EVM_TESTNET]: `${LOCAL_BASE_URL}`,
 }
 
 function cleanObjectFromUndefinedValues(obj: Record<string, string>): typeof obj {

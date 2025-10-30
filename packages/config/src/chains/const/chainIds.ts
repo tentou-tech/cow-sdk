@@ -9,6 +9,7 @@ import { polygon } from '../details/polygon'
 import { lens } from '../details/lens'
 import { bnb } from '../details/bnb'
 import { optimism } from '../details/optimism'
+import { hyperEvmTestnet } from '../details/hyperEvmTestnet'
 
 /**
  * Details of all supported chains.
@@ -23,6 +24,7 @@ export const ALL_SUPPORTED_CHAINS_MAP: Record<SupportedChainId, ChainInfo> = {
   [SupportedChainId.BNB]: bnb,
   [SupportedChainId.LENS]: lens,
   [SupportedChainId.SEPOLIA]: sepolia,
+  [SupportedChainId.HYPER_EVM_TESTNET]: hyperEvmTestnet,
 }
 
 /**

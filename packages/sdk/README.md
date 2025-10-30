@@ -26,6 +26,7 @@ The SDK supports all CoW Protocol enabled networks:
 - **Lens** (232) - `SupportedChainId.LENS`
 - **BNB** (56) - `SupportedChainId.BNB`
 - **Sepolia** (11155111) - `SupportedChainId.SEPOLIA` (Testnet)
+- **Hyper EVM Testnet** (998) - `SupportedChainId.HYPER_EVM_TESTNET` (Testnet)
 
 ## 🔗 **Related Resources**
 

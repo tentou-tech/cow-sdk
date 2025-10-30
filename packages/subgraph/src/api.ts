@@ -47,6 +47,7 @@ export class SubgraphApi {
       [SupportedChainId.AVALANCHE]: null,
       [SupportedChainId.LENS]: null,
       [SupportedChainId.BNB]: null,
+      [SupportedChainId.HYPER_EVM_TESTNET]: null,
     }
     this.context = {
       ...DEFAULT_COW_API_CONTEXT,

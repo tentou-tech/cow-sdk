@@ -35,6 +35,7 @@ import {
 // Use supported chain IDs
 const chainId = SupportedChainId.MAINNET // 1
 const gnosisChain = SupportedChainId.GNOSIS_CHAIN // 100
+const hyperEvmTestnet = SupportedChainId.HYPER_EVM_TESTNET // 998
 
 // Get chain information
 const mainnetInfo: ChainInfo = ALL_SUPPORTED_CHAINS_MAP[SupportedChainId.MAINNET]
@@ -46,7 +47,7 @@ const settlementAddress = COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS[SupportedChai
 
 // Configure API context
 const apiContext: ApiContext = {
-  chainId: SupportedChainId.SEPOLIA,
+  chainId: SupportedChainId.HYPER_EVM_TESTNET,
   env: 'staging' as CowEnv,
 }
 ```

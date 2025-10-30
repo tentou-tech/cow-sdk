@@ -8,15 +8,25 @@ export const COMPOSABLE_COW = '0xfdaFc9d1902f4e0b84f65F49f244b32b31013b74'
 const VAULT_RELAYER = '0xC92E8bdf79f0507f65a392b0ab4667716BFE0110'
 const SETTLEMENT_CONTRACT = '0x9008D19f58AAbD9eD0D60971565AA8510560ab41'
 
+// Hyper Liquid Testnet
+const HYPER_LIQUID_TESTNET_SETTLEMENT_CONTRACT = '0xDc746A7FF2DaAf182DA82560318F6c1b36d067b1'
+const HYPER_LIQUID_TESTNET_VAULT_RELAYER = '0xFb1c0ff51b2c8003B8Fa4375318734F640F8aB10'
+
 /**
  * An object containing the addresses of the CoW Protocol settlement contracts for each supported chain.
  */
-export const COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS = mapAddressToSupportedNetworks(SETTLEMENT_CONTRACT)
+export const COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS: Record<SupportedChainId, string> = {
+  ...mapAddressToSupportedNetworks(SETTLEMENT_CONTRACT),
+  [SupportedChainId.HYPER_EVM_TESTNET]: HYPER_LIQUID_TESTNET_SETTLEMENT_CONTRACT,
+}
 
 /**
  * An object containing the addresses of the CoW Protocol Vault realyer contracts for each supported chain.
  */
-export const COW_PROTOCOL_VAULT_RELAYER_ADDRESS = mapAddressToSupportedNetworks(VAULT_RELAYER)
+export const COW_PROTOCOL_VAULT_RELAYER_ADDRESS: Record<SupportedChainId, string> = {
+  ...mapAddressToSupportedNetworks(VAULT_RELAYER),
+  [SupportedChainId.HYPER_EVM_TESTNET]: HYPER_LIQUID_TESTNET_VAULT_RELAYER,
+}
 
 /**
  * An object containing the addresses of the `ExtensibleFallbackHandler` contracts for each supported chain.
@@ -40,6 +50,7 @@ const BARN_ETH_FLOW_ADDRESS_LENS = '0xFb337f8a725A142f65fb9ff4902d41cc901de222'
 export const ETH_FLOW_ADDRESSES: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(ETH_FLOW_ADDRESS),
   [SupportedChainId.LENS]: ETH_FLOW_ADDRESS_LENS,
+  [SupportedChainId.HYPER_EVM_TESTNET]: ETH_FLOW_ADDRESS, // Placeholder - update with actual address
 }
 
 /**
@@ -48,6 +59,7 @@ export const ETH_FLOW_ADDRESSES: Record<SupportedChainId, string> = {
 export const BARN_ETH_FLOW_ADDRESSES: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(BARN_ETH_FLOW_ADDRESS),
   [SupportedChainId.LENS]: BARN_ETH_FLOW_ADDRESS_LENS,
+  [SupportedChainId.HYPER_EVM_TESTNET]: BARN_ETH_FLOW_ADDRESS, // Placeholder - update with actual address
 }
 
 export const MAX_VALID_TO_EPOCH = 4294967295 // Max uint32 (Feb 07 2106 07:28:15 GMT+0100)

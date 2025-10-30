@@ -45,6 +45,7 @@ export type PartialApiContext = Partial<ApiContext>
  * @property {string} [42161] The base URL for the Arbitrum One API.
  * @property {string} [8453] The base URL for the Base API.
  * @property {string} [11155111] The base URL for the Sepolia testnet API.
+ * @property {string} [998] The base URL for the Hyper EVM testnet API.
  */
 export type ApiBaseUrls = Record<SupportedChainId, string>
 
@@ -58,6 +59,7 @@ export type ApiBaseUrls = Record<SupportedChainId, string>
  * - Arbitrum One
  * - Base
  * - Sepolia
+ * - Hyper EVM Testnet
  *
  * Each chain has it's own API, and each API has it's own base URL.
  *
