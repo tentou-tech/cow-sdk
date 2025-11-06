@@ -12,12 +12,16 @@ const SETTLEMENT_CONTRACT = '0x9008D19f58AAbD9eD0D60971565AA8510560ab41'
 const HYPER_LIQUID_TESTNET_SETTLEMENT_CONTRACT = '0xDc746A7FF2DaAf182DA82560318F6c1b36d067b1'
 const HYPER_LIQUID_TESTNET_VAULT_RELAYER = '0xFb1c0ff51b2c8003B8Fa4375318734F640F8aB10'
 
+// Hyper EVM
+const HYPER_EVM_SETTLEMENT_CONTRACT = '0xf633D8a63E9E26b4A9e77B8aEf4A1bf54C8fC4AD'
+const HYPER_EVM_VAULT_RELAYER = '0xEF2672EFad73Def722245ad17eC8CB8bC5fb3363'
 /**
  * An object containing the addresses of the CoW Protocol settlement contracts for each supported chain.
  */
 export const COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(SETTLEMENT_CONTRACT),
   [SupportedChainId.HYPER_EVM_TESTNET]: HYPER_LIQUID_TESTNET_SETTLEMENT_CONTRACT,
+  [SupportedChainId.HYPER_EVM]: HYPER_EVM_SETTLEMENT_CONTRACT,
 }
 
 /**
@@ -26,6 +30,7 @@ export const COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS: Record<SupportedChainId, 
 export const COW_PROTOCOL_VAULT_RELAYER_ADDRESS: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(VAULT_RELAYER),
   [SupportedChainId.HYPER_EVM_TESTNET]: HYPER_LIQUID_TESTNET_VAULT_RELAYER,
+  [SupportedChainId.HYPER_EVM]: HYPER_EVM_VAULT_RELAYER,
 }
 
 /**
@@ -51,6 +56,7 @@ export const ETH_FLOW_ADDRESSES: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(ETH_FLOW_ADDRESS),
   [SupportedChainId.LENS]: ETH_FLOW_ADDRESS_LENS,
   [SupportedChainId.HYPER_EVM_TESTNET]: ETH_FLOW_ADDRESS, // Placeholder - update with actual address
+  [SupportedChainId.HYPER_EVM]: ETH_FLOW_ADDRESS,
 }
 
 /**
@@ -60,6 +66,7 @@ export const BARN_ETH_FLOW_ADDRESSES: Record<SupportedChainId, string> = {
   ...mapAddressToSupportedNetworks(BARN_ETH_FLOW_ADDRESS),
   [SupportedChainId.LENS]: BARN_ETH_FLOW_ADDRESS_LENS,
   [SupportedChainId.HYPER_EVM_TESTNET]: BARN_ETH_FLOW_ADDRESS, // Placeholder - update with actual address
+  [SupportedChainId.HYPER_EVM]: BARN_ETH_FLOW_ADDRESS,
 }
 
 export const MAX_VALID_TO_EPOCH = 4294967295 // Max uint32 (Feb 07 2106 07:28:15 GMT+0100)

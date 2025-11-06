@@ -48,6 +48,7 @@ export class SubgraphApi {
       [SupportedChainId.LENS]: null,
       [SupportedChainId.BNB]: null,
       [SupportedChainId.HYPER_EVM_TESTNET]: null,
+      [SupportedChainId.HYPER_EVM]: null,
     }
     this.context = {
       ...DEFAULT_COW_API_CONTEXT,

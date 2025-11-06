@@ -78,6 +78,15 @@ export const WRAPPED_NATIVE_CURRENCIES: Record<SupportedChainId, TokenInfo> = {
     '0xADcb2f358Eae6492F61A5F87eb8893d09391d160', // Placeholder - update with actual wrapped ETH address
     wrappedNativeCurrencyEth,
   ),
+  [SupportedChainId.HYPER_EVM]: getWrappedTokenForChain(
+    SupportedChainId.HYPER_EVM,
+    '0x5555555555555555555555555555555555555555', // Wrapped Hyper
+    {
+      decimals: 18,
+      name: 'Wrapped Hyper',
+      symbol: 'WHYPE',
+    },
+  ),
 }
 
 function getWrappedTokenForChain(

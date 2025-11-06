@@ -2,41 +2,41 @@ import { ChainInfo, SupportedChainId } from '../types'
 import { nativeCurrencyTemplate } from '../../constants/tokens'
 import { RAW_CHAINS_FILES_PATH } from '../../constants/paths'
 
-const hyperEvmTestnetLogo = `${RAW_CHAINS_FILES_PATH}/images/hyper-evm-logo.svg`
+const hyperEvmLogo = `${RAW_CHAINS_FILES_PATH}/images/hyper-evm-logo.svg`
 
 /**
- * Hyper EVM Testnet chain info.
+ * Hyper EVM chain info.
  *
  * Hyper EVM testnet is a testnet for Hyper EVM, providing EVM compatibility
  * for testing and development purposes.
  */
-export const hyperEvmTestnet: ChainInfo = {
-  id: SupportedChainId.HYPER_EVM_TESTNET,
-  label: 'Hyper EVM Testnet',
-  eip155Label: 'Hyper EVM Testnet',
+export const hyperEvm: ChainInfo = {
+  id: SupportedChainId.HYPER_EVM,
+  label: 'Hyper EVM',
+  eip155Label: 'Hyper EVM',
   nativeCurrency: {
     ...nativeCurrencyTemplate,
-    chainId: SupportedChainId.HYPER_EVM_TESTNET,
+    chainId: SupportedChainId.HYPER_EVM,
     name: 'Hyper',
     symbol: 'HYPE',
-    logoUrl: hyperEvmTestnetLogo,
+    logoUrl: hyperEvmLogo,
   },
   addressPrefix: 'hyper',
   isTestnet: true,
   isUnderDevelopment: true,
   contracts: {
     multicall3: {
-      address: '0xDB2b93F421C5D1b3Dc5763B841652aA68Fa9A373',
-      blockCreated: 1, // Placeholder - update with actual block number
+      address: '0xD86d0F9419FfE3c81dAa7621ec1809127e7Da315',
+      blockCreated: 11710,
     },
   },
   rpcUrls: {
     default: {
-      http: ['http://34.146.110.209:3001/evm'],
+      http: ['https://rpc.hyperliquid.xyz/evm'],
     },
   },
   color: '#FF6B35',
-  logo: { light: hyperEvmTestnetLogo, dark: hyperEvmTestnetLogo },
+  logo: { light: hyperEvmLogo, dark: hyperEvmLogo },
 
   website: {
     name: 'Hyper EVM',
@@ -48,6 +48,6 @@ export const hyperEvmTestnet: ChainInfo = {
   },
   blockExplorer: {
     name: 'Hyper EVM Explorer',
-    url: 'https://explorer.hyperliquid-testnet.xyz', // Placeholder - update with actual explorer URL
+    url: 'https://explorer.hyperliquid.xyz',
   },
 }

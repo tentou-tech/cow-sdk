@@ -50,6 +50,7 @@ export const ORDER_BOOK_PROD_CONFIG: ApiBaseUrls = {
   [SupportedChainId.LENS]: `${PROD_BASE_URL}/lens`,
   [SupportedChainId.BNB]: `${PROD_BASE_URL}/bnb`,
   [SupportedChainId.HYPER_EVM_TESTNET]: `${PROD_BASE_URL}/hyper-evm-testnet`,
+  [SupportedChainId.HYPER_EVM]: `${PROD_BASE_URL}/hyper-evm`,
 }
 
 /**
@@ -66,6 +67,7 @@ export const ORDER_BOOK_STAGING_CONFIG: ApiBaseUrls = {
   [SupportedChainId.LENS]: `${STAGING_BASE_URL}/lens`,
   [SupportedChainId.BNB]: `${STAGING_BASE_URL}/bnb`,
   [SupportedChainId.HYPER_EVM_TESTNET]: `${STAGING_BASE_URL}`,
+  [SupportedChainId.HYPER_EVM]: `${STAGING_BASE_URL}/hyper-evm`,
 }
 
 function cleanObjectFromUndefinedValues(obj: Record<string, string>): typeof obj {

@@ -17,7 +17,7 @@ import { ViemAdapter } from '@cowprotocol/sdk-viem-adapter'
 // =================== Config ===================
 const RPC_URL = ''
 const PRIVATE_KEY = '' // private key here (0x...)
-const DEFAULT_SELL_AMOUNT = 0.01 // WETH amount
+const DEFAULT_SELL_AMOUNT = 0.001 // WETH amount
 // ===============================================================
 
 async function main() {
@@ -81,6 +81,8 @@ async function main() {
   })
 
   console.log('Quote: ', quoteAndPost)
+  console.log('amountsAndCosts: ', quoteAndPost.quoteResults.amountsAndCosts)
+  console.log('quoteResponse: ', quoteAndPost.quoteResults.quoteResponse)
 
   console.log('Posting order...')
   const res = await quoteAndPost.postSwapOrderFromQuote({})

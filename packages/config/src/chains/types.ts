@@ -18,6 +18,7 @@ export enum SupportedChainId {
   AVALANCHE = 43114,
   SEPOLIA = 11155111,
   HYPER_EVM_TESTNET = 998,
+  HYPER_EVM = 999,
 }
 
 /**
