@@ -21,6 +21,8 @@ export const ACROSS_SPOOK_CONTRACT_ADDRESSES: Record<TargetChainId, string | und
   [SupportedChainId.GNOSIS_CHAIN]: undefined,
   [SupportedChainId.AVALANCHE]: undefined,
   [AdditionalTargetChainId.OPTIMISM]: undefined,
+  [SupportedChainId.HYPER_EVM_TESTNET]: undefined,
+  [SupportedChainId.HYPER_EVM]: undefined,
 }
 
 export const ACROSS_MATH_CONTRACT_ADDRESSES: Record<TargetChainId, string | undefined> = {
@@ -37,4 +39,6 @@ export const ACROSS_MATH_CONTRACT_ADDRESSES: Record<TargetChainId, string | unde
   [SupportedChainId.AVALANCHE]: undefined,
   [SupportedChainId.LENS]: undefined, // TODO: confirm
   [SupportedChainId.BNB]: undefined, // TODO: confirm
+  [SupportedChainId.HYPER_EVM_TESTNET]: undefined,
+  [SupportedChainId.HYPER_EVM]: undefined,
 }

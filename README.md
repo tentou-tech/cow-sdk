@@ -91,6 +91,26 @@ pnpm typecheck
 pnpm clean
 ```
 
+### Publishing Packages
+
+For maintainers who need to publish packages to npm:
+
+```bash
+# List all publishable packages
+./scripts/publish.sh --list
+
+# Dry-run to see what would be published (recommended first)
+./scripts/publish.sh --all --dry-run
+
+# Publish all packages
+./scripts/publish.sh --all
+
+# Publish a specific package
+./scripts/publish.sh --package @cowprotocol/cow-sdk
+```
+
+📖 **For detailed publishing instructions, see [PUBLISHING.md](PUBLISHING.md)**
+
 ## Contributing
 
 We welcome contributions to the CoW Protocol SDK! Here's how to get started:

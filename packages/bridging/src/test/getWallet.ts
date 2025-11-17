@@ -5,12 +5,14 @@ import {
   base,
   bnb,
   gnosisChain,
+  hyperEvmTestnet,
   lens,
   mainnet,
   polygon,
   sepolia,
   SupportedChainId,
 } from '@cowprotocol/sdk-config'
+import { hyperEvm } from '@cowprotocol/sdk-config/src/chains/details/hyperEvm'
 
 const DEFAULT_RPC_URL: Record<SupportedChainId, string | undefined> = {
   [SupportedChainId.MAINNET]: mainnet.rpcUrls.default.http[0],
@@ -22,6 +24,8 @@ const DEFAULT_RPC_URL: Record<SupportedChainId, string | undefined> = {
   [SupportedChainId.AVALANCHE]: avalanche.rpcUrls.default.http[0],
   [SupportedChainId.LENS]: lens.rpcUrls.default.http[0],
   [SupportedChainId.BNB]: bnb.rpcUrls.default.http[0],
+  [SupportedChainId.HYPER_EVM_TESTNET]: hyperEvmTestnet.rpcUrls.default.http[0],
+  [SupportedChainId.HYPER_EVM]: hyperEvm.rpcUrls.default.http[0],
 }
 
 export async function getRpcProvider(chainId: SupportedChainId) {

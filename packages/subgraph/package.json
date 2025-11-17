@@ -1,5 +1,5 @@
 {
-  "name": "@cowprotocol/sdk-subgraph",
+  "name": "@tentou-tech/cowprotocol-sdk-subgraph",
   "version": "0.1.2",
   "description": "CowProtocol subgraph",
   "main": "./dist/index.js",

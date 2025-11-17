@@ -1,0 +1,29 @@
+# Example .npmrc configuration for CoW SDK
+# Copy this file to .npmrc and configure as needed
+
+# Registry configuration
+registry=https://registry.npmjs.org/
+
+# For publishing to npm (use npm token for CI/CD)
+# //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+
+# Workspace configuration (already in pnpm-workspace.yaml)
+# Enable hoisting for better compatibility
+# shamefully-hoist=true
+
+# Strict peer dependencies
+strict-peer-dependencies=false
+
+# Auto install peer dependencies
+auto-install-peers=true
+
+# Lockfile configuration
+lockfile=true
+
+# Save exact versions
+save-exact=false
+
+# Public hoist pattern for better compatibility
+# public-hoist-pattern[]=*eslint*
+# public-hoist-pattern[]=*prettier*
+
