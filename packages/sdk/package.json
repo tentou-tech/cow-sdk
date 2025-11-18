@@ -1,6 +1,6 @@
 {
   "name": "@tentou-tech/cowprotocol-cow-sdk",
-  "version": "7.0.11",
+  "version": "7.0.12",
   "license": "(MIT OR Apache-2.0)",
   "description": "CoW Protocol SDK - get quote, configure your order, and trade",
   "main": "./dist/index.js",
@@ -44,7 +44,7 @@
     "@cowprotocol/sdk-common": "workspace:*",
     "@cowprotocol/sdk-config": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
-    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*",
+    "@cowprotocol/sdk-order-book": "workspace:*",
     "@cowprotocol/sdk-order-signing": "workspace:*",
     "@cowprotocol/sdk-trading": "workspace:*"
   },

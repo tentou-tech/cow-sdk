@@ -30,7 +30,7 @@ Always do a dry-run first to see what would be published:
 ./scripts/publish.sh --all --dry-run
 
 # Dry-run for a specific package
-./scripts/publish.sh --package @cowprotocol/cow-sdk --dry-run
+./scripts/publish.sh --package @tentou-tech/cowprotocol-cow-sdk --dry-run
 ```
 
 ### Publish All Packages
@@ -71,6 +71,20 @@ pnpm run publish:dry-run
 ```bash
 pnpm --filter @cowprotocol/cow-sdk publish --access public --no-git-checks
 ```
+
+### Publish a specific package with explicit tag
+
+To publish with an explicit tag (e.g., `latest`), use:
+
+```bash
+# Publish SDK package with latest tag
+pnpm publish -r --filter="./packages/sdk" --tag latest --no-git-checks --access public
+
+# Or for any other package
+pnpm publish -r --filter="./packages/order-book" --tag latest --no-git-checks --access public
+```
+
+**Note:** The `--tag latest` flag is optional. If omitted, npm defaults to `latest`. However, explicitly specifying the tag can prevent errors in automated scripts where the `TAG` environment variable might be empty.
 
 ### Publish a specific package (dry-run)
 
@@ -221,6 +235,22 @@ If prompted for a 2FA code during publishing:
 1. Get the code from your authenticator app
 2. Enter it when prompted
 3. Consider using an npm token for CI/CD
+
+### "Tag name must not be a valid SemVer range"
+
+If you see the error `Tag name must not be a valid SemVer range:`, it means an empty string is being passed to the `--tag` flag.
+
+**Solution:**
+- Either remove the `--tag` argument (defaults to `latest`)
+- Or explicitly specify the tag: `--tag latest`
+- If using a script with `$TAG` variable, ensure it's set: `export TAG=latest`
+
+**Example fix:**
+```bash
+# Instead of: pnpm publish -r --filter="./packages/sdk" --tag $TAG ...
+# Use:
+pnpm publish -r --filter="./packages/sdk" --tag latest --no-git-checks --access public
+```
 
 ## CI/CD Publishing
 
