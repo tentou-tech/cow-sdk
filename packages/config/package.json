@@ -1,7 +1,7 @@
 {
-  "name": "@cowprotocol/sdk-config",
-  "version": "0.1.0",
-  "description": "Configuration constants and settings for CoW Protocol SDK",
+  "name": "@tentou-tech/cowprotocol-sdk-config",
+  "version": "0.1.1",
+  "description": "Configuration constants and settings for Tentou Tech CowProtocol SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
