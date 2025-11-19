@@ -32,8 +32,8 @@ import { transformOrder } from './transformOrder'
 import { EnrichedOrder } from './types'
 
 const PROD_BASE_URL = 'https://api.cow.fi'
-// const STAGING_BASE_URL = 'http://34.146.110.209:8080'
-const STAGING_BASE_URL = 'http://localhost:8080'
+const STAGING_BASE_URL = 'http://34.146.110.209:8080'
+// const STAGING_BASE_URL = 'http://localhost:8080'
 // const LOCAL_BASE_URL = 'http://localhost:8080'
 
 /**
