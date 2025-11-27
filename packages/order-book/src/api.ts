@@ -31,7 +31,7 @@ import { DEFAULT_BACKOFF_OPTIONS, DEFAULT_LIMITER_OPTIONS, FetchParams, OrderBoo
 import { transformOrder } from './transformOrder'
 import { EnrichedOrder } from './types'
 
-const PROD_BASE_URL = 'https://api.cow.fi'
+const PROD_BASE_URL = 'https://order.tentou.tech'
 const STAGING_BASE_URL = 'https://order-dev.tentou.tech'
 // const STAGING_BASE_URL = 'http://localhost:8080'
 // const LOCAL_BASE_URL = 'http://localhost:8080'
@@ -51,7 +51,7 @@ export const ORDER_BOOK_PROD_CONFIG: ApiBaseUrls = {
   [SupportedChainId.LENS]: `${PROD_BASE_URL}/lens`,
   [SupportedChainId.BNB]: `${PROD_BASE_URL}/bnb`,
   [SupportedChainId.HYPER_EVM_TESTNET]: `${PROD_BASE_URL}/hyper-evm-testnet`,
-  [SupportedChainId.HYPER_EVM]: `${PROD_BASE_URL}/hyper-evm`,
+  [SupportedChainId.HYPER_EVM]: `${PROD_BASE_URL}`,
 }
 
 /**
