@@ -3,7 +3,7 @@ import { BungeeQuote, BungeeQuoteWithBuildTx } from './types'
 import { BungeeTxDataBytesIndices } from './const/misc'
 import { BungeeBridge, BungeeBridgeNames } from './types'
 import { BridgeQuoteAmountsAndCosts, QuoteBridgeRequest } from '../../types'
-import { getBigNumber, OrderKind } from '@cowprotocol/sdk-order-book'
+import { getBigNumber, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 /**
  * Convert a QuoteBridgeRequest to a BungeeQuoteResult

@@ -1,4 +1,4 @@
-import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 const BUNGEE_COWSWAP_LIB_ADDRESS = '0x75b6ba5fcab20848ca00f132d253638fea82e598'
 export const BungeeCowswapLibAddresses: Record<TargetChainId, string | undefined> = {

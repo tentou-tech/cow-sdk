@@ -13,7 +13,7 @@
     "ethers": "^6.13.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "@cowprotocol/cow-sdk": "workspace:*",
+    "@tentou-tech/cowprotocol-cow-sdk": "workspace:*",
     "@cowprotocol/sdk-ethers-v6-adapter": "workspace:*"
   },
   "devDependencies": {

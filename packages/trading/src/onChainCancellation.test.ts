@@ -7,7 +7,7 @@ import {
   SigningScheme,
   OrderStatus,
   OrderClass,
-} from '@cowprotocol/sdk-order-book'
+} from '@tentou-tech/cowprotocol-sdk-order-book'
 import { EthFlowContract, SettlementContract } from '@cowprotocol/sdk-common'
 
 // Mock order data

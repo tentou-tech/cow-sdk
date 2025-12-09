@@ -5,8 +5,12 @@ import { AcrossQuoteResult } from './AcrossBridgeProvider'
 import { ACROSS_DEPOSIT_EVENT_INTERFACE, COW_TRADE_EVENT_INTERFACE } from './const/interfaces'
 import { ACROSS_TOKEN_MAPPING, AcrossChainConfig } from './const/tokens'
 import { ACROSS_SPOOK_CONTRACT_ADDRESSES } from './const/contracts'
-import { COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS, SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
-import { getBigNumber, OrderKind } from '@cowprotocol/sdk-order-book'
+import {
+  COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS,
+  SupportedChainId,
+  TargetChainId,
+} from '@tentou-tech/cowprotocol-sdk-config'
+import { getBigNumber, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { getGlobalAdapter, Log } from '@cowprotocol/sdk-common'
 
 const PCT_100_PERCENT = 10n ** 18n

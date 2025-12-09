@@ -1,5 +1,5 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderKind, OrderQuoteResponse, PriceQuality } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind, OrderQuoteResponse, PriceQuality } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { resolveSlippageSuggestion } from './resolveSlippageSuggestion'
 import { QuoterParameters, SwapAdvancedSettings, TradeParameters } from './types'
 

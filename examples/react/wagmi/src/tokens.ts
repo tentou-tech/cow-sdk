@@ -1,4 +1,4 @@
-import { SupportedChainId, TokenInfo } from '@cowprotocol/cow-sdk'
+import { SupportedChainId, TokenInfo } from '@tentou-tech/cowprotocol-cow-sdk'
 
 export const USDC_TOKENS: Record<SupportedChainId, TokenInfo> = {
   [SupportedChainId.MAINNET]: {

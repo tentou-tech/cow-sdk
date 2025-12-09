@@ -44,15 +44,15 @@ importers:
 
   examples/nodejs/ethers5:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-ethers-v5-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/ethers-v5-adapter
       '@ethersproject/providers':
         specifier: ^5.5.3
         version: 5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       dotenv:
         specifier: ^16.4.5
         version: 16.5.0
@@ -72,12 +72,12 @@ importers:
 
   examples/nodejs/ethers6:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-ethers-v6-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/ethers-v6-adapter
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       dotenv:
         specifier: ^16.4.5
         version: 16.5.0
@@ -97,12 +97,12 @@ importers:
 
   examples/nodejs/viem:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-viem-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/viem-adapter
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       dotenv:
         specifier: ^16.4.5
         version: 16.5.0
@@ -122,15 +122,15 @@ importers:
 
   examples/react/ethers5:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-ethers-v5-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/ethers-v5-adapter
       '@ethersproject/providers':
         specifier: ^5.5.3
         version: 5.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       ethers:
         specifier: 5.7.2
         version: 5.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -177,12 +177,12 @@ importers:
 
   examples/react/ethers6:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-ethers-v6-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/ethers-v6-adapter
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       ethers:
         specifier: ^6.13.7
         version: 6.14.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -229,12 +229,12 @@ importers:
 
   examples/react/viem:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-viem-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/viem-adapter
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -281,15 +281,15 @@ importers:
 
   examples/react/wagmi:
     dependencies:
-      '@cowprotocol/cow-sdk':
-        specifier: workspace:*
-        version: link:../../../packages/sdk
       '@cowprotocol/sdk-viem-adapter':
         specifier: workspace:*
         version: link:../../../packages/providers/viem-adapter
       '@tanstack/react-query':
         specifier: 5.45.1
         version: 5.45.1(react@18.3.1)
+      '@tentou-tech/cowprotocol-cow-sdk':
+        specifier: workspace:*
+        version: link:../../../packages/sdk
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -349,9 +349,6 @@ importers:
       '@cow-sdk/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-ethers-v5-adapter':
         specifier: workspace:*
         version: link:../providers/ethers-v5-adapter
@@ -361,6 +358,9 @@ importers:
       '@cowprotocol/sdk-viem-adapter':
         specifier: workspace:*
         version: link:../providers/viem-adapter
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
       '@types/jest':
         specifier: ^29.5.14
         version: 29.5.14
@@ -412,30 +412,30 @@ importers:
 
   packages/bridging:
     dependencies:
-      '@cowprotocol/sdk-app-data':
-        specifier: workspace:*
-        version: link:../app-data
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
-      '@cowprotocol/sdk-cow-shed':
-        specifier: workspace:*
-        version: link:../cow-shed
-      '@cowprotocol/sdk-order-book':
-        specifier: workspace:*
-        version: link:../order-book
-      '@cowprotocol/sdk-trading':
-        specifier: workspace:*
-        version: link:../trading
       '@cowprotocol/sdk-weiroll':
         specifier: workspace:*
         version: link:../weiroll
+      '@tentou-tech/cowprotocol-sdk-app-data':
+        specifier: workspace:*
+        version: link:../app-data
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
+      '@tentou-tech/cowprotocol-sdk-cow-shed':
+        specifier: workspace:*
+        version: link:../cow-shed
+      '@tentou-tech/cowprotocol-sdk-order-book':
+        specifier: workspace:*
+        version: link:../order-book
+      '@tentou-tech/cowprotocol-sdk-trading':
+        specifier: workspace:*
+        version: link:../trading
     devDependencies:
       '@cow-sdk/typescript-config':
         specifier: workspace:*
@@ -446,12 +446,12 @@ importers:
       '@cowprotocol/sdk-ethers-v6-adapter':
         specifier: workspace:*
         version: link:../providers/ethers-v6-adapter
-      '@cowprotocol/sdk-order-signing':
-        specifier: workspace:*
-        version: link:../order-signing
       '@cowprotocol/sdk-viem-adapter':
         specifier: workspace:*
         version: link:../providers/viem-adapter
+      '@tentou-tech/cowprotocol-sdk-order-signing':
+        specifier: workspace:*
+        version: link:../order-signing
       '@types/jest':
         specifier: ^29.4.0
         version: 29.5.14
@@ -518,21 +518,21 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
-      '@cowprotocol/sdk-order-book':
-        specifier: workspace:*
-        version: link:../order-book
-      '@cowprotocol/sdk-order-signing':
-        specifier: workspace:*
-        version: link:../order-signing
       '@openzeppelin/merkle-tree':
         specifier: ^1.0.8
         version: 1.0.8
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
+      '@tentou-tech/cowprotocol-sdk-order-book':
+        specifier: workspace:*
+        version: link:../order-book
+      '@tentou-tech/cowprotocol-sdk-order-signing':
+        specifier: workspace:*
+        version: link:../order-signing
     devDependencies:
       '@cow-sdk/typescript-config':
         specifier: workspace:*
@@ -607,7 +607,7 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
+      '@tentou-tech/cowprotocol-sdk-config':
         specifier: workspace:*
         version: link:../config
     devDependencies:
@@ -659,12 +659,12 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
     devDependencies:
       '@cow-sdk/typescript-config':
         specifier: workspace:*
@@ -726,7 +726,7 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
+      '@tentou-tech/cowprotocol-sdk-config':
         specifier: workspace:*
         version: link:../config
       cross-fetch:
@@ -781,13 +781,13 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
-      '@cowprotocol/sdk-order-book':
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
+      '@tentou-tech/cowprotocol-sdk-order-book':
         specifier: workspace:*
         version: link:../order-book
     devDependencies:
@@ -911,30 +911,30 @@ importers:
 
   packages/sdk:
     dependencies:
-      '@cowprotocol/sdk-app-data':
-        specifier: workspace:*
-        version: link:../app-data
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
-      '@cowprotocol/sdk-order-book':
-        specifier: workspace:*
-        version: link:../order-book
-      '@cowprotocol/sdk-order-signing':
-        specifier: workspace:*
-        version: link:../order-signing
-      '@cowprotocol/sdk-trading':
-        specifier: workspace:*
-        version: link:../trading
       '@openzeppelin/merkle-tree':
         specifier: ^1.x
         version: 1.0.8
+      '@tentou-tech/cowprotocol-sdk-app-data':
+        specifier: workspace:*
+        version: link:../app-data
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
+      '@tentou-tech/cowprotocol-sdk-order-book':
+        specifier: workspace:*
+        version: link:../order-book
+      '@tentou-tech/cowprotocol-sdk-order-signing':
+        specifier: workspace:*
+        version: link:../order-signing
+      '@tentou-tech/cowprotocol-sdk-trading':
+        specifier: workspace:*
+        version: link:../trading
       cross-fetch:
         specifier: ^3.x
         version: 3.2.0
@@ -972,7 +972,7 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
+      '@tentou-tech/cowprotocol-sdk-config':
         specifier: workspace:*
         version: link:../config
       graphql:
@@ -1021,22 +1021,22 @@ importers:
 
   packages/trading:
     dependencies:
-      '@cowprotocol/sdk-app-data':
-        specifier: workspace:*
-        version: link:../app-data
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
-        specifier: workspace:*
-        version: link:../config
       '@cowprotocol/sdk-contracts-ts':
         specifier: workspace:*
         version: link:../contracts-ts
-      '@cowprotocol/sdk-order-book':
+      '@tentou-tech/cowprotocol-sdk-app-data':
+        specifier: workspace:*
+        version: link:../app-data
+      '@tentou-tech/cowprotocol-sdk-config':
+        specifier: workspace:*
+        version: link:../config
+      '@tentou-tech/cowprotocol-sdk-order-book':
         specifier: workspace:*
         version: link:../order-book
-      '@cowprotocol/sdk-order-signing':
+      '@tentou-tech/cowprotocol-sdk-order-signing':
         specifier: workspace:*
         version: link:../order-signing
       deepmerge:
@@ -1105,7 +1105,7 @@ importers:
       '@cowprotocol/sdk-common':
         specifier: workspace:*
         version: link:../common
-      '@cowprotocol/sdk-config':
+      '@tentou-tech/cowprotocol-sdk-config':
         specifier: workspace:*
         version: link:../config
     devDependencies:

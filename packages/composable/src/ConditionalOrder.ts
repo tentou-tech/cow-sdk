@@ -12,11 +12,11 @@ import {
   PollResultCode,
   PollResultErrors,
 } from './types'
-import { UID } from '@cowprotocol/sdk-order-book'
+import { UID } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { computeOrderUid } from '@cowprotocol/sdk-contracts-ts'
-import { OrderSigningUtils } from '@cowprotocol/sdk-order-signing'
+import { OrderSigningUtils } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import { AbstractProviderAdapter, getGlobalAdapter, setGlobalAdapter, ZERO_HASH } from '@cowprotocol/sdk-common'
-import { COMPOSABLE_COW_CONTRACT_ADDRESS } from '@cowprotocol/sdk-config'
+import { COMPOSABLE_COW_CONTRACT_ADDRESS } from '@tentou-tech/cowprotocol-sdk-config'
 import { ComposableCowFactoryAbi } from './abis/ComposableCowFactoryAbi'
 
 /**

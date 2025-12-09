@@ -4,8 +4,8 @@ import { createAdapters } from '../../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { HookBridgeResultContext } from './getQuoteWithBridge'
 
-jest.mock('@cowprotocol/sdk-order-book', () => ({
-  ...jest.requireActual('@cowprotocol/sdk-order-book'),
+jest.mock('@tentou-tech/cowprotocol-sdk-order-book', () => ({
+  ...jest.requireActual('@tentou-tech/cowprotocol-sdk-order-book'),
   OrderSigningUtils: {
     generateOrderId: jest.fn().mockResolvedValue({
       orderId:

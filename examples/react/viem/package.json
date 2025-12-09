@@ -13,7 +13,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "viem": "^2.38.5",
-    "@cowprotocol/cow-sdk": "workspace:*",
+    "@tentou-tech/cowprotocol-cow-sdk": "workspace:*",
     "@cowprotocol/sdk-viem-adapter": "workspace:*"
   },
   "devDependencies": {

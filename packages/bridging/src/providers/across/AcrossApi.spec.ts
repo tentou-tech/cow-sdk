@@ -1,6 +1,6 @@
 import { AcrossApi } from './AcrossApi'
 import { DepositStatusResponse } from './types'
-import { AdditionalTargetChainId, SupportedChainId } from '@cowprotocol/sdk-config'
+import { AdditionalTargetChainId, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 describe('AcrossApi: Shape of API response', () => {
   let api: AcrossApi

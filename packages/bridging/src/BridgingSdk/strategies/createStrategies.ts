@@ -1,5 +1,5 @@
 import { TTLCache } from '@cowprotocol/sdk-common'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { SingleQuoteStrategy } from './SingleQuoteStrategy'
 import { MultiQuoteStrategy } from './MultiQuoteStrategy'
 import { BestQuoteStrategy } from './BestQuoteStrategy'

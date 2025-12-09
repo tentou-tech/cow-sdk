@@ -1,4 +1,4 @@
-jest.mock('@cowprotocol/sdk-order-signing', () => {
+jest.mock('@tentou-tech/cowprotocol-sdk-order-signing', () => {
   return {
     OrderSigningUtils: {
       signOrder: jest.fn(),
@@ -18,9 +18,9 @@ import { AdaptersTestSetup, createAdapters, TEST_ADDRESS } from '../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 
 import { TradingAppDataInfo, LimitOrderParameters } from './types'
-import { ETH_ADDRESS, SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderBookApi, OrderKind } from '@cowprotocol/sdk-order-book'
-import { OrderSigningUtils as OrderSigningUtilsMock } from '@cowprotocol/sdk-order-signing'
+import { ETH_ADDRESS, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderBookApi, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { OrderSigningUtils as OrderSigningUtilsMock } from '@tentou-tech/cowprotocol-sdk-order-signing'
 
 const defaultOrderParams: LimitOrderParameters = {
   chainId: SupportedChainId.GNOSIS_CHAIN,

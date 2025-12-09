@@ -1,7 +1,7 @@
 import { ORDER_TYPE_FIELDS } from '@cowprotocol/sdk-contracts-ts'
 import { ORDER_PRIMARY_TYPE, OrderTypedData } from './types'
-import { OrderSigningUtils, UnsignedOrder } from '@cowprotocol/sdk-order-signing'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { OrderSigningUtils, UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 const EIP712DomainTypes = [
   { name: 'name', type: 'string' },

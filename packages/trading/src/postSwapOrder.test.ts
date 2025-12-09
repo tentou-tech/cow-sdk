@@ -1,6 +1,6 @@
 import { getQuoteWithSigner } from './getQuote'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { postSwapOrderFromQuote } from './postSwapOrder'
 import { SwapParameters } from './types'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'

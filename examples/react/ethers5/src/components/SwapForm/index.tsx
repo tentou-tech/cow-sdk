@@ -5,7 +5,7 @@ import {
   SupportedChainId,
   type TokenInfo,
   WRAPPED_NATIVE_CURRENCIES,
-} from '@cowprotocol/cow-sdk'
+} from '@tentou-tech/cowprotocol-cow-sdk'
 import { useEffect, useState } from 'react'
 import { chainId, cowSdkAdapter, tradingSdk } from '../../cowSdk.ts'
 import { Web3Provider } from '@ethersproject/providers'

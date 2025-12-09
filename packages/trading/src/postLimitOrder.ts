@@ -1,5 +1,5 @@
 import { LimitOrderAdvancedSettings, LimitOrderParameters, OrderPostingResult } from './types'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { buildAppData } from './appDataUtils'
 import { postCoWProtocolTrade } from './postCoWProtocolTrade'
 import { log } from '@cowprotocol/sdk-common'

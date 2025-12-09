@@ -1,4 +1,4 @@
-import type { SupportedChainId } from '@cowprotocol/sdk-config'
+import type { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import type { ContractsOrder as Order, OrderUidParams } from '@cowprotocol/sdk-contracts-ts'
 import type { SigningResult, UnsignedOrder } from './types'
 import { getGlobalAdapter, Signer, TypedDataDomain } from '@cowprotocol/sdk-common'

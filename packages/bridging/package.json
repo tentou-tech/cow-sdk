@@ -25,17 +25,17 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@cowprotocol/sdk-app-data": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-app-data": "workspace:*",
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
-    "@cowprotocol/sdk-cow-shed": "workspace:*",
-    "@cowprotocol/sdk-order-book": "workspace:*",
-    "@cowprotocol/sdk-trading": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-cow-shed": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-trading": "workspace:*",
     "@cowprotocol/sdk-weiroll": "workspace:*"
   },
   "devDependencies": {
-    "@cowprotocol/sdk-order-signing": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-signing": "workspace:*",
     "@cow-sdk/typescript-config": "workspace:*",
     "@cowprotocol/sdk-ethers-v5-adapter": "workspace:*",
     "@cowprotocol/sdk-ethers-v6-adapter": "workspace:*",

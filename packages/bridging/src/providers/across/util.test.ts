@@ -11,8 +11,8 @@ import {
 } from './util'
 import { AcrossQuoteResult } from './AcrossBridgeProvider'
 import { SuggestedFeesResponse } from './types'
-import { AdditionalTargetChainId, SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { AdditionalTargetChainId, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { createAdapters } from '../../../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 

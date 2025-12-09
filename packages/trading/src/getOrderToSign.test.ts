@@ -1,7 +1,7 @@
 import { getOrderToSign } from './getOrderToSign'
 import { LimitOrderParameters } from './types'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { DEFAULT_QUOTE_VALIDITY } from './consts'
 
 const currentTimestamp = 1487076708000
@@ -47,11 +47,7 @@ describe('getOrderToSign', () => {
 
   it('When validTo is set, then should use exact validTo value', () => {
     const exactValidTo = 2524608000 // January 1, 2050 00:00:00 UTC
-    const result = getOrderToSign(
-      params,
-      { ...defaultOrderParams, validTo: exactValidTo },
-      appDataKeccak256,
-    )
+    const result = getOrderToSign(params, { ...defaultOrderParams, validTo: exactValidTo }, appDataKeccak256)
 
     expect(result.validTo).toBe(exactValidTo)
   })

@@ -20,9 +20,9 @@ jest.mock('@cowprotocol/sdk-common', () => {
 })
 
 import { getEthFlowTransaction } from './getEthFlowTransaction'
-import { SupportedChainId, WRAPPED_NATIVE_CURRENCIES } from '@cowprotocol/sdk-config'
+import { SupportedChainId, WRAPPED_NATIVE_CURRENCIES } from '@tentou-tech/cowprotocol-sdk-config'
 import { LimitTradeParametersFromQuote } from './types'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'
 import { setGlobalAdapter, ContractFactory } from '@cowprotocol/sdk-common'
 

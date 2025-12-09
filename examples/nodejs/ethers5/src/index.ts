@@ -6,7 +6,7 @@ import {
   TradingSdk,
   OrderKind,
   WRAPPED_NATIVE_CURRENCIES,
-} from '@cowprotocol/cow-sdk'
+} from '@tentou-tech/cowprotocol-cow-sdk'
 import { EthersV5Adapter } from '@cowprotocol/sdk-ethers-v5-adapter'
 
 // =================== Config ===================

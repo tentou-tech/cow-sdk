@@ -1,5 +1,5 @@
-import { EcdsaSigningScheme, SigningScheme } from '@cowprotocol/sdk-order-book'
-import { mapSupportedNetworks, SupportedChainId } from '@cowprotocol/sdk-config'
+import { EcdsaSigningScheme, SigningScheme } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { mapSupportedNetworks, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 export const DEFAULT_QUOTE_VALIDITY = 60 * 30 // 30 min
 

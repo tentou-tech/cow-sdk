@@ -1,13 +1,13 @@
-jest.mock('@cowprotocol/sdk-order-signing', () => ({
+jest.mock('@tentou-tech/cowprotocol-sdk-order-signing', () => ({
   OrderSigningUtils: {
     generateOrderId: jest.fn(),
   },
 }))
 
 import { calculateUniqueOrderId } from './calculateUniqueOrderId'
-import { SupportedChainId, MAX_VALID_TO_EPOCH, WRAPPED_NATIVE_CURRENCIES } from '@cowprotocol/sdk-config'
-import { OrderSigningUtils as OrderSigningUtilsMock, UnsignedOrder } from '@cowprotocol/sdk-order-signing'
-import { BuyTokenDestination, OrderKind, SellTokenSource } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId, MAX_VALID_TO_EPOCH, WRAPPED_NATIVE_CURRENCIES } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderSigningUtils as OrderSigningUtilsMock, UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
+import { BuyTokenDestination, OrderKind, SellTokenSource } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 const orderMock: UnsignedOrder = {
   buyAmount: '100',

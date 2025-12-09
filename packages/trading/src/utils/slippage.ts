@@ -1,4 +1,4 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 import { DEFAULT_SLIPPAGE_BPS, ETH_FLOW_DEFAULT_SLIPPAGE_BPS } from '../consts'
 

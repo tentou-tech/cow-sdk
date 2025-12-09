@@ -6,7 +6,7 @@ import {
   PostTradeAdditionalParams,
 } from './types'
 
-import { OrderBookApi, SigningScheme } from '@cowprotocol/sdk-order-book'
+import { OrderBookApi, SigningScheme } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { getEthFlowTransaction } from './getEthFlowTransaction'
 
 import { log } from '@cowprotocol/sdk-common'

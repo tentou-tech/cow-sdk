@@ -1,4 +1,4 @@
-import { EvmCall } from '@cowprotocol/sdk-config'
+import { EvmCall } from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter } from '@cowprotocol/sdk-common'
 
 import { BridgeHook, BridgeQuoteResult, HookBridgeProvider, QuoteBridgeRequest } from '../types'

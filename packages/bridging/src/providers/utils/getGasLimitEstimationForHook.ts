@@ -1,5 +1,5 @@
 import { getGlobalAdapter } from '@cowprotocol/sdk-common'
-import { CowShedSdk } from '@cowprotocol/sdk-cow-shed'
+import { CowShedSdk } from '@tentou-tech/cowprotocol-sdk-cow-shed'
 
 import { QuoteBridgeRequest } from '../../types'
 import { COW_SHED_PROXY_CREATION_GAS, DEFAULT_GAS_COST_FOR_HOOK_ESTIMATION } from '../../const'

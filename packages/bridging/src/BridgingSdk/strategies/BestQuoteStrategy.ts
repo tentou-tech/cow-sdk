@@ -1,5 +1,5 @@
 import { TTLCache } from '@cowprotocol/sdk-common'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { MultiQuoteResult, BestQuoteProviderContext } from '../../types'
 import { BridgingSdkConfig } from '../types'
 import {

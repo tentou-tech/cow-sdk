@@ -27,9 +27,9 @@
   },
   "dependencies": {
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
-    "@cowprotocol/sdk-order-book": "workspace:*"
+    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*"
   },
   "devDependencies": {
     "@cowprotocol/sdk-ethers-v5-adapter": "workspace:*",

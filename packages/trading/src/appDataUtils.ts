@@ -4,7 +4,7 @@ import {
   type LatestAppDataDocVersion,
   MetadataApi,
   stringifyDeterministic,
-} from '@cowprotocol/sdk-app-data'
+} from '@tentou-tech/cowprotocol-sdk-app-data'
 import { getGlobalAdapter } from '@cowprotocol/sdk-common'
 import deepmerge from 'deepmerge'
 

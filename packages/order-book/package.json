@@ -40,7 +40,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@cowprotocol/sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
     "@cowprotocol/sdk-common": "workspace:*",
     "cross-fetch": "^3.2.0",
     "exponential-backoff": "^3.1.2",

@@ -1,6 +1,6 @@
 import { TradingAppDataInfo, LimitOrderParameters } from './types'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderBookApi, OrderKind } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderBookApi, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { postSellNativeCurrencyOrder } from './postSellNativeCurrencyOrder'
 import { getEthFlowTransaction } from './getEthFlowTransaction'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'

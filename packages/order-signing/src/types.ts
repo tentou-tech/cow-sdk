@@ -1,6 +1,6 @@
 import type { SignerLike } from '@cowprotocol/sdk-common'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import type { OrderParameters, EcdsaSigningScheme } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import type { OrderParameters, EcdsaSigningScheme } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 /**
  * Unsigned order intent to be placed.

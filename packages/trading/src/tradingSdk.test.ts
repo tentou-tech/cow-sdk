@@ -1,5 +1,5 @@
 import { TradingSdk } from './tradingSdk'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { TradeBaseParameters } from './types'
 import {
   BuyTokenDestination,
@@ -11,9 +11,9 @@ import {
   OrderStatus,
   SellTokenSource,
   SigningScheme,
-} from '@cowprotocol/sdk-order-book'
+} from '@tentou-tech/cowprotocol-sdk-order-book'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'
-import { OrderSigningUtils } from '@cowprotocol/sdk-order-signing'
+import { OrderSigningUtils } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import * as onChainCancellationModule from './onChainCancellation'
 import * as getEthFlowTransactionModule from './getEthFlowTransaction'
 import * as resolveOrderBookApiModule from './utils/resolveOrderBookApi'

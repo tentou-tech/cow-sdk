@@ -1,4 +1,4 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 import { BridgeCallDetails, BridgeQuoteResult, BuyTokensParams, QuoteBridgeRequest } from '../../types'
 import { ContractsOrderKind as OrderKind } from '@cowprotocol/sdk-contracts-ts'
@@ -8,11 +8,15 @@ import {
   QuoteAmountsAndCosts,
   SellTokenSource,
   SigningScheme,
-} from '@cowprotocol/sdk-order-book'
-import { EvmCall } from '@cowprotocol/sdk-config'
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
-import { TradingAppDataInfo as AppDataInfo, OrderTypedData, TradeParameters } from '@cowprotocol/sdk-trading'
-import { UnsignedOrder } from '@cowprotocol/sdk-order-signing'
+} from '@tentou-tech/cowprotocol-sdk-order-book'
+import { EvmCall } from '@tentou-tech/cowprotocol-sdk-config'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
+import {
+  TradingAppDataInfo as AppDataInfo,
+  OrderTypedData,
+  TradeParameters,
+} from '@tentou-tech/cowprotocol-sdk-trading'
+import { UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import { AbstractProviderAdapter } from '@cowprotocol/sdk-common'
 import { HOOK_DAPP_BRIDGE_PROVIDER_PREFIX } from '../../const'
 

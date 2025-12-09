@@ -1,6 +1,6 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { bpsToPercentage, log } from '@cowprotocol/sdk-common'
-import { getQuoteAmountsAndCosts, OrderQuoteResponse, PriceQuality } from '@cowprotocol/sdk-order-book'
+import { getQuoteAmountsAndCosts, OrderQuoteResponse, PriceQuality } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 import { QuoterParameters, SlippageToleranceResponse, SwapAdvancedSettings, TradeParameters } from './types'
 import { suggestSlippageBps, SuggestSlippageBps } from './suggestSlippageBps'

@@ -1,5 +1,5 @@
 import { CowShedSdk } from './CowShedSdk'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { ICoWShedCall } from './types'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'

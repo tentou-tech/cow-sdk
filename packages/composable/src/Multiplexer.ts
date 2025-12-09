@@ -2,7 +2,7 @@ import { StandardMerkleTree } from '@openzeppelin/merkle-tree'
 
 import { ProofLocation, ProofWithParams, ConditionalOrderParams, ComposableCoW, GPv2Order } from './types'
 import { ConditionalOrder } from './ConditionalOrder'
-import { COMPOSABLE_COW_CONTRACT_ADDRESS, SupportedChainId } from '@cowprotocol/sdk-config'
+import { COMPOSABLE_COW_CONTRACT_ADDRESS, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter, Provider } from '@cowprotocol/sdk-common'
 import { ComposableCowFactoryAbi } from './abis/ComposableCowFactoryAbi'
 

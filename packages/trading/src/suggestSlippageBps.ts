@@ -1,5 +1,5 @@
 import { percentageToBps } from '@cowprotocol/sdk-common'
-import { getQuoteAmountsWithCosts, OrderQuoteResponse } from '@cowprotocol/sdk-order-book'
+import { getQuoteAmountsWithCosts, OrderQuoteResponse } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 import { getSlippagePercent } from './utils/slippage'
 import { suggestSlippageFromFee } from './suggestSlippageFromFee'

@@ -1,7 +1,7 @@
 import { LimitTradeParametersFromQuote, TradeParameters } from '../types'
-import { OrderQuoteResponse, QuoteAmountsAndCosts } from '@cowprotocol/sdk-order-book'
-import { ETH_ADDRESS, WRAPPED_NATIVE_CURRENCIES } from '@cowprotocol/sdk-config'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { OrderQuoteResponse, QuoteAmountsAndCosts } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { ETH_ADDRESS, WRAPPED_NATIVE_CURRENCIES } from '@tentou-tech/cowprotocol-sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 export function swapParamsToLimitOrderParams(
   params: TradeParameters,

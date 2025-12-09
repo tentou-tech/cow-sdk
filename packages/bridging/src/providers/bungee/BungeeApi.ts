@@ -23,7 +23,7 @@ import { BridgeProviderError, BridgeProviderQuoteError, BridgeQuoteErrors } from
 import { SocketVerifierAddresses } from './const/contracts'
 import { SOCKET_VERIFIER_ABI } from './abi'
 import { BuyTokensParams } from '../../types'
-import { SupportedChainId, TokenInfo } from '@cowprotocol/sdk-config'
+import { SupportedChainId, TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter, log } from '@cowprotocol/sdk-common'
 import {
   BUNGEE_API_FALLBACK_TIMEOUT,

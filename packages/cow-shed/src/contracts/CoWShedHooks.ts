@@ -4,7 +4,7 @@ import {
   ecdsaSignTypedData,
   EIP1271_MAGICVALUE,
 } from '@cowprotocol/sdk-contracts-ts'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 import {
   AbstractProviderAdapter,

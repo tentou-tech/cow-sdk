@@ -1,4 +1,4 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { Signer } from '@cowprotocol/sdk-common'
 import { GAS_LIMIT_DEFAULT } from './consts'
 import { calculateGasMargin } from './utils/misc'

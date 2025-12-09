@@ -9,14 +9,14 @@ import {
   orderQuoteResponse,
   quoteBridgeRequest,
 } from './mock/bridgeRequestMocks'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
-import { SupportedChainId, TokenInfo } from '@cowprotocol/sdk-config'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { SupportedChainId, TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { createAdapters } from '../../tests/setup'
 import { AbstractSigner, setGlobalAdapter, Provider, TTLCache } from '@cowprotocol/sdk-common'
 import { BridgeProviderQuoteError, BridgeQuoteErrors } from '../errors'
-import { TradingSdk } from '@cowprotocol/sdk-trading'
+import { TradingSdk } from '@tentou-tech/cowprotocol-sdk-trading'
 import { GetQuoteWithBridgeParams } from './types'
-import { cowAppDataLatestScheme } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme } from '@tentou-tech/cowprotocol-sdk-app-data'
 
 const adapters = createAdapters()
 const adapterNames = Object.keys(adapters) as Array<keyof typeof adapters>

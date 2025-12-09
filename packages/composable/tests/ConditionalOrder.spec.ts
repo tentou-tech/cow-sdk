@@ -7,7 +7,7 @@ import { ConditionalOrder } from '../src/ConditionalOrder'
 import { Twap } from '../src/orderTypes/Twap'
 
 import { GPv2Order, OwnerContext, PollParams, PollResultCode, PollResultErrors } from '../src/types'
-import { BuyTokenDestination, OrderBookApi, OrderKind, SellTokenSource } from '@cowprotocol/sdk-order-book'
+import { BuyTokenDestination, OrderBookApi, OrderKind, SellTokenSource } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { createAdapters } from './setup'
 

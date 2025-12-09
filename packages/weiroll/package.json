@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*"
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*"
   },
   "devDependencies": {
     "@cow-sdk/typescript-config": "workspace:*",

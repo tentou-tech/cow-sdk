@@ -1,4 +1,4 @@
-import { cowAppDataLatestScheme } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme } from '@tentou-tech/cowprotocol-sdk-app-data'
 import { HOOK_DAPP_BRIDGE_PROVIDER_PREFIX } from '../const'
 
 export function getHookMockForCostEstimation(gasLimit: number): cowAppDataLatestScheme.CoWHook {

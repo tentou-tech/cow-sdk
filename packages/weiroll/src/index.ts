@@ -1,5 +1,5 @@
 import { Planner as WeirollPlanner, Contract as WeirollContract } from './lib/planner'
-import { EvmCall } from '@cowprotocol/sdk-config'
+import { EvmCall } from '@tentou-tech/cowprotocol-sdk-config'
 import { GenericContract, getGlobalAdapter } from '@cowprotocol/sdk-common'
 
 export { Contract as WeirollContract, Planner as WeirollPlanner } from './lib/planner'

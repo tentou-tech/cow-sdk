@@ -2,7 +2,7 @@ import type {
   AppDataParams,
   cowAppDataLatestScheme as latest,
   LatestAppDataDocVersion,
-} from '@cowprotocol/sdk-app-data'
+} from '@tentou-tech/cowprotocol-sdk-app-data'
 import {
   AppData,
   AppDataHash,
@@ -14,10 +14,10 @@ import {
   type Signature,
   SigningScheme,
   TokenAmount,
-} from '@cowprotocol/sdk-order-book'
+} from '@tentou-tech/cowprotocol-sdk-order-book'
 import type { AccountAddress, SignerLike } from '@cowprotocol/sdk-common'
-import type { UnsignedOrder } from '@cowprotocol/sdk-order-signing'
-import type { SupportedChainId, CowEnv } from '@cowprotocol/sdk-config'
+import type { UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
+import type { SupportedChainId, CowEnv } from '@tentou-tech/cowprotocol-sdk-config'
 
 export const ORDER_PRIMARY_TYPE = 'Order' as const
 

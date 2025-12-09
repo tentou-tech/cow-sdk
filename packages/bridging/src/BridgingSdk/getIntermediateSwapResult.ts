@@ -4,15 +4,15 @@ import {
   TradeParameters,
   TradingSdk,
   WithPartialTraderParams,
-} from '@cowprotocol/sdk-trading'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-trading'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter, jsonWithBigintReplacer, log, SignerLike, TTLCache } from '@cowprotocol/sdk-common'
-import { cowAppDataLatestScheme } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme } from '@tentou-tech/cowprotocol-sdk-app-data'
 import { BridgeQuoteResult, QuoteBridgeRequest, QuoteBridgeRequestWithoutAmount, BridgeProvider } from '../types'
 import { BridgeProviderQuoteError, BridgeQuoteErrors } from '../errors'
 import { GetQuoteWithBridgeParams } from './types'
 import { getCacheKey } from './helpers'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 export interface GetIntermediateSwapResultParams<T extends BridgeQuoteResult> {
   provider: BridgeProvider<T>

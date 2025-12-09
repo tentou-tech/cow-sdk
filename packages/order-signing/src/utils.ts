@@ -19,9 +19,9 @@ import {
 import { CowError, TypedDataDomain, type Signer } from '@cowprotocol/sdk-common'
 import type { SigningResult, SignOrderParams, SignOrderCancellationParams, UnsignedOrder } from './types'
 
-import { EcdsaSigningScheme } from '@cowprotocol/sdk-order-book'
+import { EcdsaSigningScheme } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { SignOrderCancellationsParams } from './types'
-import { COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS, SupportedChainId } from '@cowprotocol/sdk-config'
+import { COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 // For error codes, see:
 // - https://eth.wiki/json-rpc/json-rpc-error-codes-improvement-proposal

@@ -2,8 +2,8 @@ import { BridgeQuoteResult, BridgeStatus, CrossChainOrder, BridgeProvider } from
 
 import { BridgeOrderParsingError } from '../errors'
 import { findBridgeProviderFromHook } from './findBridgeProviderFromHook'
-import { CowEnv, SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
+import { CowEnv, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 interface GetCrossChainOrderParams {
   chainId: SupportedChainId

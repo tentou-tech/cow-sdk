@@ -1,4 +1,4 @@
-import { cowAppDataLatestScheme } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme } from '@tentou-tech/cowprotocol-sdk-app-data'
 
 export function getPartnerFeeBps(partnerFee: cowAppDataLatestScheme.PartnerFee | undefined): number | undefined {
   if (!partnerFee) {

@@ -40,13 +40,13 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@cowprotocol/sdk-app-data": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-app-data": "workspace:*",
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
-    "@cowprotocol/sdk-order-book": "workspace:*",
-    "@cowprotocol/sdk-order-signing": "workspace:*",
-    "@cowprotocol/sdk-trading": "workspace:*"
+    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-signing": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-trading": "workspace:*"
   },
   "peerDependencies": {
     "@openzeppelin/merkle-tree": "^1.x",

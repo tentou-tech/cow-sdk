@@ -1,4 +1,4 @@
-import { getEthFlowContract, TradingSdk } from '@cowprotocol/sdk-trading'
+import { getEthFlowContract, TradingSdk } from '@tentou-tech/cowprotocol-sdk-trading'
 import { MockHookBridgeProvider } from '../providers/mock/HookMockBridgeProvider'
 import { QuoteBridgeRequest } from '../types'
 import { getQuoteWithBridge } from './getQuoteWithBridge'
@@ -11,8 +11,8 @@ import {
   orderQuoteResponse,
   quoteBridgeRequest,
 } from './mock/bridgeRequestMocks'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
-import { NATIVE_CURRENCY_ADDRESS, SupportedChainId, TokenInfo } from '@cowprotocol/sdk-config'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { NATIVE_CURRENCY_ADDRESS, SupportedChainId, TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { getHookMockForCostEstimation } from '../hooks/utils'
 import { createAdapters } from '../../tests/setup'
 import { AbstractSigner, setGlobalAdapter, Provider, TTLCache } from '@cowprotocol/sdk-common'

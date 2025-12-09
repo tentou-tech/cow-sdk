@@ -1,4 +1,4 @@
-import { RAW_FILES_PATH } from '@cowprotocol/sdk-config'
+import { RAW_FILES_PATH } from '@tentou-tech/cowprotocol-sdk-config'
 
 export const RAW_PROVIDERS_FILES_PATH = `${RAW_FILES_PATH}/src/bridging/providers`
 // Based on https://dashboard.tenderly.co/shoom/project/simulator/a5e29dac-d0f2-407f-9e3d-d1b916da595b

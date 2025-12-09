@@ -1,6 +1,6 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { Bytes, Provider } from '@cowprotocol/sdk-common'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 export declare namespace GPv2Order {
   export type DataStruct = {

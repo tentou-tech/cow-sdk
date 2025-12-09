@@ -1,5 +1,5 @@
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 import {
   BridgeDeposit,
@@ -39,8 +39,8 @@ import {
   polygon,
   SupportedChainId,
   TokenInfo,
-} from '@cowprotocol/sdk-config'
-import { CowShedSdk, CowShedSdkOptions } from '@cowprotocol/sdk-cow-shed'
+} from '@tentou-tech/cowprotocol-sdk-config'
+import { CowShedSdk, CowShedSdkOptions } from '@tentou-tech/cowprotocol-sdk-cow-shed'
 import { AbstractProviderAdapter, setGlobalAdapter, SignerLike } from '@cowprotocol/sdk-common'
 
 export const BUNGEE_HOOK_DAPP_ID = `${HOOK_DAPP_BRIDGE_PROVIDER_PREFIX}/bungee`

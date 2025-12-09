@@ -1,6 +1,6 @@
 import { ethers } from 'ethers'
 import { getWallet, getRpcProvider, getPk } from './getWallet'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 // Mock ethers to avoid actual network calls
 jest.mock('ethers')

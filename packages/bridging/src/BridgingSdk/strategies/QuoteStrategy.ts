@@ -1,6 +1,6 @@
 import { SwapAdvancedSettings } from '@cowprotocol/sdk-trading'
 import { TTLCache } from '@cowprotocol/sdk-common'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import {
   BridgeQuoteResult,
   CrossChainQuoteAndPost,

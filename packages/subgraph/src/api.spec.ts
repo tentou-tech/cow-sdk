@@ -1,7 +1,7 @@
 import { gql } from 'graphql-request'
 import fetchMock, { enableFetchMocks } from 'jest-fetch-mock'
 import { CowError } from '@cowprotocol/sdk-common'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { LAST_DAYS_VOLUME_QUERY, LAST_HOURS_VOLUME_QUERY, TOTALS_QUERY } from './queries'
 import { SubgraphApi, SubgraphApiBaseUrls } from './api'
 

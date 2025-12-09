@@ -1,6 +1,13 @@
-import type { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
-import type { Address, Amounts, EnrichedOrder, OrderKind } from '@cowprotocol/sdk-order-book'
-import type { EvmCall, TokenInfo, ChainInfo, SupportedChainId, TargetChainId, ChainId } from '@cowprotocol/sdk-config'
+import type { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
+import type { Address, Amounts, EnrichedOrder, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
+import type {
+  EvmCall,
+  TokenInfo,
+  ChainInfo,
+  SupportedChainId,
+  TargetChainId,
+  ChainId,
+} from '@tentou-tech/cowprotocol-sdk-config'
 import type {
   OrderPostingResult,
   QuoteAndPost,
@@ -10,7 +17,7 @@ import type {
   SwapAdvancedSettings,
   TradeOptionalParameters,
   TraderParameters,
-} from '@cowprotocol/sdk-trading'
+} from '@tentou-tech/cowprotocol-sdk-trading'
 import type { AccountAddress, SignerLike, TTLCache } from '@cowprotocol/sdk-common'
 
 export interface BridgeProviderInfo {

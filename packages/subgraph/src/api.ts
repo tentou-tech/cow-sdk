@@ -1,6 +1,6 @@
 import { Variables, request } from 'graphql-request'
 import { DocumentNode } from 'graphql/index'
-import { SupportedChainId, ApiContext, DEFAULT_COW_API_CONTEXT } from '@cowprotocol/sdk-config'
+import { SupportedChainId, ApiContext, DEFAULT_COW_API_CONTEXT } from '@tentou-tech/cowprotocol-sdk-config'
 import { CowError } from '@cowprotocol/sdk-common'
 import { LastDaysVolumeQuery, LastHoursVolumeQuery, TotalsQuery } from './graphql'
 import { LAST_DAYS_VOLUME_QUERY, LAST_HOURS_VOLUME_QUERY, TOTALS_QUERY } from './queries'

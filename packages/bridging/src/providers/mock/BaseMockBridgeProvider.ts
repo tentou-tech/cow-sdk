@@ -18,7 +18,7 @@ import {
   sepolia,
   SupportedChainId,
   TokenInfo,
-} from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-config'
 import { BRIDGING_PARAMS, BUY_TOKENS, INTERMEDIATE_TOKENS, MOCK_CALL, QUOTE, STATUS } from './mockData'
 
 export abstract class BaseMockBridgeProvider implements Omit<BridgeProvider<BridgeQuoteResult>, 'type'> {

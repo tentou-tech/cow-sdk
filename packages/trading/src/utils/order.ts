@@ -1,5 +1,5 @@
 import type { ContractsOrder, OrderBalance } from '@cowprotocol/sdk-contracts-ts'
-import type { UnsignedOrder } from '@cowprotocol/sdk-order-signing'
+import type { UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
 
 export function getOrderDeadlineFromNow(validFor: number): bigint {
   return BigInt(Math.floor(Date.now() / 1000) + validFor)

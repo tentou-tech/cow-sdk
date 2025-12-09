@@ -1,4 +1,4 @@
-import { SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { BridgeProviderError } from '../errors'
 import {
   BridgeQuoteResult,

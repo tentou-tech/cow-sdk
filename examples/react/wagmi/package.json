@@ -14,7 +14,7 @@
     "react-dom": "^18.3.1",
     "viem": "^2.38.5",
     "wagmi": "latest",
-    "@cowprotocol/cow-sdk": "workspace:*",
+    "@tentou-tech/cowprotocol-cow-sdk": "workspace:*",
     "@cowprotocol/sdk-viem-adapter": "workspace:*"
   },
   "devDependencies": {

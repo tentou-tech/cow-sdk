@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
-    "@cowprotocol/sdk-order-book": "workspace:*",
-    "@cowprotocol/sdk-order-signing": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-signing": "workspace:*",
     "@openzeppelin/merkle-tree": "^1.0.8"
   },
   "devDependencies": {

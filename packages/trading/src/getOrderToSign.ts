@@ -3,12 +3,12 @@ import {
   getQuoteAmountsAndCosts,
   type OrderParameters,
   SellTokenSource,
-} from '@cowprotocol/sdk-order-book'
-import { UnsignedOrder } from '@cowprotocol/sdk-order-signing'
+} from '@tentou-tech/cowprotocol-sdk-order-book'
+import { UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import { DEFAULT_QUOTE_VALIDITY } from './consts'
 import { LimitTradeParameters } from './types'
 import { getPartnerFeeBps } from './utils/getPartnerFeeBps'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { getDefaultSlippageBps } from './utils/slippage'
 import { getOrderDeadlineFromNow } from './utils/order'
 

@@ -1,5 +1,5 @@
 import { TTLCache } from '@cowprotocol/sdk-common'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { CrossChainQuoteAndPost } from '../../types'
 import { getQuoteWithoutBridge } from '../getQuoteWithoutBridge'
 import { getQuoteWithBridge } from '../getQuoteWithBridge'

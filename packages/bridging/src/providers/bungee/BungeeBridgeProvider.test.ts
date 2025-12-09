@@ -1,4 +1,4 @@
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
 import { BridgeStatus, QuoteBridgeRequest } from '../../types'
 import { BungeeApi } from './BungeeApi'
 import {
@@ -9,8 +9,8 @@ import {
   BungeeQuoteResult,
 } from './BungeeBridgeProvider'
 import { BungeeBridge, BungeeBridgeName, BungeeBuildTx, BungeeEvent, BungeeEventStatus, BungeeQuote } from './types'
-import { SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { createAdapters } from '../../../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import {

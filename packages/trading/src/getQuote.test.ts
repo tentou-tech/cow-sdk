@@ -1,8 +1,8 @@
 import { ETH_FLOW_DEFAULT_SLIPPAGE_BPS } from './consts'
 import { getQuoteWithSigner } from './getQuote'
 import { SwapParameters } from './types'
-import { ETH_ADDRESS, WRAPPED_NATIVE_CURRENCIES, SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderBookApi, OrderKind, OrderQuoteResponse } from '@cowprotocol/sdk-order-book'
+import { ETH_ADDRESS, WRAPPED_NATIVE_CURRENCIES, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderBookApi, OrderKind, OrderQuoteResponse } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { AdaptersTestSetup, createAdapters } from '../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 
@@ -279,7 +279,11 @@ describe('getQuote', () => {
 
       for (const adapterName of adapterNames) {
         setGlobalAdapter(adapters[adapterName])
-        await getQuoteWithSigner({ ...defaultOrderParams, signer: adapters[adapterName].signer, validTo: exactValidTo }, {}, orderBookApiMock)
+        await getQuoteWithSigner(
+          { ...defaultOrderParams, signer: adapters[adapterName].signer, validTo: exactValidTo },
+          {},
+          orderBookApiMock,
+        )
 
         const call = getQuoteMock.mock.calls[0][0]
         expect(call.validTo).toBe(exactValidTo)
@@ -294,8 +298,14 @@ describe('getQuote', () => {
       for (const adapterName of adapterNames) {
         setGlobalAdapter(adapters[adapterName])
         await expect(
-          getQuoteWithSigner({ ...defaultOrderParams, signer: adapters[adapterName].signer, validTo: exactValidTo, validFor: 600 }, {}, orderBookApiMock)
-        ).rejects.toThrow('Cannot specify both validFor and validTo. Use validFor for relative time or validTo for absolute time.')
+          getQuoteWithSigner(
+            { ...defaultOrderParams, signer: adapters[adapterName].signer, validTo: exactValidTo, validFor: 600 },
+            {},
+            orderBookApiMock,
+          ),
+        ).rejects.toThrow(
+          'Cannot specify both validFor and validTo. Use validFor for relative time or validTo for absolute time.',
+        )
       }
     })
   })

@@ -1,4 +1,4 @@
-import type { SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import type { SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 export type SupportedBridge = 'across' | 'cctp' | 'gnosis-native-bridge'
 

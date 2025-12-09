@@ -4,7 +4,7 @@ import {
   COMPOSABLE_COW_CONTRACT_ADDRESS,
   EXTENSIBLE_FALLBACK_HANDLER_CONTRACT_ADDRESS,
   SupportedChainId,
-} from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter, Provider } from '@cowprotocol/sdk-common'
 import { ExtensibleFallbackHandlerFactoryAbi } from './abis/ExtensibleFallbackHandlerFactoryAbi'
 

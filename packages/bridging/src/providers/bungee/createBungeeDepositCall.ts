@@ -5,7 +5,7 @@ import { BungeeBridge, InputOutputAmountTxDataBytesIndices } from './types'
 import { BUNGEE_APPROVE_AND_BRIDGE_V1_ABI } from './abi'
 import { BungeeApproveAndBridgeV1Addresses } from './const/contracts'
 import { decodeBungeeBridgeTxData } from './util'
-import { ETH_ADDRESS, EvmCall } from '@cowprotocol/sdk-config'
+import { ETH_ADDRESS, EvmCall } from '@tentou-tech/cowprotocol-sdk-config'
 import { getGlobalAdapter } from '@cowprotocol/sdk-common'
 
 export async function createBungeeDepositCall(params: {

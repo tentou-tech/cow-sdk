@@ -1,5 +1,5 @@
-import { SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderQuoteResponse } from '@cowprotocol/sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderQuoteResponse } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 import { suggestSlippageBps, SuggestSlippageBps } from './suggestSlippageBps'
 import { QuoterParameters, TradeParameters } from './types'
@@ -9,8 +9,8 @@ jest.mock('@cowprotocol/sdk-common', () => ({
   percentageToBps: jest.fn((percent) => Math.round(percent * 100)),
 }))
 
-jest.mock('@cowprotocol/sdk-order-book', () => ({
-  ...jest.requireActual('@cowprotocol/sdk-order-book'),
+jest.mock('@tentou-tech/cowprotocol-sdk-order-book', () => ({
+  ...jest.requireActual('@tentou-tech/cowprotocol-sdk-order-book'),
   getQuoteAmountsWithCosts: jest.fn(),
 }))
 
@@ -26,7 +26,7 @@ jest.mock('./suggestSlippageFromVolume', () => ({
   suggestSlippageFromVolume: jest.fn(),
 }))
 
-const { getQuoteAmountsWithCosts } = jest.requireMock('@cowprotocol/sdk-order-book')
+const { getQuoteAmountsWithCosts } = jest.requireMock('@tentou-tech/cowprotocol-sdk-order-book')
 const { getSlippagePercent } = jest.requireMock('./utils/slippage')
 const { suggestSlippageFromFee } = jest.requireMock('./suggestSlippageFromFee')
 const { suggestSlippageFromVolume } = jest.requireMock('./suggestSlippageFromVolume')

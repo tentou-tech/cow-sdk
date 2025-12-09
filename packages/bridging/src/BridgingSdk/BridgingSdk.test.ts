@@ -14,8 +14,8 @@ import {
   quoteBridgeRequest,
   tradeParameters,
 } from './mock/bridgeRequestMocks'
-import { QuoteResultsWithSigner, SwapAdvancedSettings, TradingSdk } from '@cowprotocol/sdk-trading'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
+import { QuoteResultsWithSigner, SwapAdvancedSettings, TradingSdk } from '@tentou-tech/cowprotocol-sdk-trading'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
 import {
   ALL_SUPPORTED_CHAINS,
   mainnet,
@@ -23,7 +23,7 @@ import {
   sepolia,
   SupportedChainId,
   TargetChainId,
-} from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-config'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { createAdapters } from '../../tests/setup'
 

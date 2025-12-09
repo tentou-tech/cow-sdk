@@ -1,5 +1,5 @@
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { BridgeQuoteResult, BridgeStatus, QuoteBridgeRequest } from '../../types'
 import { AcrossApi } from './AcrossApi'
 import {
@@ -9,7 +9,7 @@ import {
   AcrossBridgeProviderOptions,
 } from './AcrossBridgeProvider'
 import { SuggestedFeesResponse } from './types'
-import { SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { createAdapters } from '../../../tests/setup'
 import { DEFAULT_GAS_COST_FOR_HOOK_ESTIMATION } from '../../const'

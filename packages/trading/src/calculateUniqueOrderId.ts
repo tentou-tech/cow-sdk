@@ -1,12 +1,12 @@
-import { OrderSigningUtils, UnsignedOrder } from '@cowprotocol/sdk-order-signing'
+import { OrderSigningUtils, UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import {
   BARN_ETH_FLOW_ADDRESSES,
   CowEnv,
   ETH_FLOW_ADDRESSES,
   MAX_VALID_TO_EPOCH,
   WRAPPED_NATIVE_CURRENCIES,
-} from '@cowprotocol/sdk-config'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import type { ContractsOrder as Order } from '@cowprotocol/sdk-contracts-ts'
 import { EthFlowOrderExistsCallback } from './types'
 import { unsignedOrderForSigning } from './utils/order'

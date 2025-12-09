@@ -4,7 +4,7 @@ import {
   OrderKind,
   type QuoteAndPost,
   WRAPPED_NATIVE_CURRENCIES,
-} from '@cowprotocol/cow-sdk'
+} from '@tentou-tech/cowprotocol-cow-sdk'
 import { useEffect, useState } from 'react'
 import { tradingSdk } from '../../cowSdk'
 import { useAccount } from 'wagmi'

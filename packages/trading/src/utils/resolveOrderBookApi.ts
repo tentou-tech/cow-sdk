@@ -1,5 +1,5 @@
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
-import { CowEnv, SupportedChainId } from '@cowprotocol/sdk-config'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { CowEnv, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 const orderBookApiCache = new Map<CowEnv, Map<SupportedChainId, OrderBookApi>>([
   ['prod', new Map()],

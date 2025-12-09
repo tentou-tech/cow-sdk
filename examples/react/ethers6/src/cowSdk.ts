@@ -1,4 +1,4 @@
-import { setGlobalAdapter, SupportedChainId, TradingSdk } from '@cowprotocol/cow-sdk'
+import { setGlobalAdapter, SupportedChainId, TradingSdk } from '@tentou-tech/cowprotocol-cow-sdk'
 import { JsonRpcProvider } from 'ethers'
 import { EthersV6Adapter } from '@cowprotocol/sdk-ethers-v6-adapter'
 

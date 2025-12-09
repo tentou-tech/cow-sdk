@@ -9,7 +9,7 @@ import {
   SuggestedFeesResponse,
 } from './types'
 import { BridgeProviderQuoteError, BridgeQuoteErrors } from '../../errors'
-import { TokenInfo } from '@cowprotocol/sdk-config'
+import { TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { log } from '@cowprotocol/sdk-common'
 
 const ACROSS_API_URL = 'https://app.across.to/api'

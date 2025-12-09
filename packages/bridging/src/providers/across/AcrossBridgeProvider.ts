@@ -1,4 +1,4 @@
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
 
 import {
   BridgeDeposit,
@@ -34,9 +34,9 @@ import {
   polygon,
   SupportedChainId,
   TokenInfo,
-} from '@cowprotocol/sdk-config'
-import { CowShedSdk, CowShedSdkOptions } from '@cowprotocol/sdk-cow-shed'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+} from '@tentou-tech/cowprotocol-sdk-config'
+import { CowShedSdk, CowShedSdkOptions } from '@tentou-tech/cowprotocol-sdk-cow-shed'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 type SupportedTokensState = Record<ChainId, Record<string, TokenInfo>>
 

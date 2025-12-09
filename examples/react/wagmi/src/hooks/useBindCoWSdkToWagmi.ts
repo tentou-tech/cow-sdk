@@ -2,7 +2,7 @@ import { useAccount, usePublicClient, useWalletClient } from 'wagmi'
 import { useEffect, useState } from 'react'
 import { ViemAdapter, ViemAdapterOptions } from '@cowprotocol/sdk-viem-adapter'
 import { tradingSdk } from '../cowSdk.ts'
-import { setGlobalAdapter } from '@cowprotocol/cow-sdk'
+import { setGlobalAdapter } from '@tentou-tech/cowprotocol-cow-sdk'
 
 export function useBindCoWSdkToWagmi(): boolean {
   const account = useAccount()

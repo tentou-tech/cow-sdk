@@ -7,7 +7,7 @@ import {
   WeirollContract,
   WeirollPlanner,
 } from './index'
-import { EvmCall } from '@cowprotocol/sdk-config'
+import { EvmCall } from '@tentou-tech/cowprotocol-sdk-config'
 
 const ERC20_ABI = [
   'function balanceOf(address account) external view returns (uint256)',

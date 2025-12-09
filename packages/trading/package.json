@@ -46,10 +46,10 @@
   },
   "dependencies": {
     "@cowprotocol/sdk-common": "workspace:*",
-    "@cowprotocol/sdk-config": "workspace:*",
-    "@cowprotocol/sdk-app-data": "workspace:*",
-    "@cowprotocol/sdk-order-book": "workspace:*",
-    "@cowprotocol/sdk-order-signing": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-config": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-app-data": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-book": "workspace:*",
+    "@tentou-tech/cowprotocol-sdk-order-signing": "workspace:*",
     "@cowprotocol/sdk-contracts-ts": "workspace:*",
     "deepmerge": "^4.3.1"
   }

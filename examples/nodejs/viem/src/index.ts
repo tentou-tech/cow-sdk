@@ -13,7 +13,7 @@ import {
   COW_PROTOCOL_SETTLEMENT_CONTRACT_ADDRESS,
   OrderStatus,
   OrderBookApi,
-} from '@cowprotocol/cow-sdk'
+} from '@tentou-tech/cowprotocol-cow-sdk'
 import dotenv from 'dotenv'
 dotenv.config()
 import { ViemAdapter } from '@cowprotocol/sdk-viem-adapter'

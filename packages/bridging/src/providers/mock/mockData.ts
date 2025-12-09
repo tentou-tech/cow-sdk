@@ -1,4 +1,4 @@
-import { AdditionalTargetChainId, EvmCall, SupportedChainId, TargetChainId, TokenInfo } from '@cowprotocol/sdk-config'
+import { AdditionalTargetChainId, EvmCall, SupportedChainId, TargetChainId, TokenInfo } from '@tentou-tech/cowprotocol-sdk-config'
 import { BridgeQuoteResult, BridgeStatus, BridgeStatusResult, BridgingDepositParams } from '../../types'
 
 export const BRIDGING_PARAMS: BridgingDepositParams = {

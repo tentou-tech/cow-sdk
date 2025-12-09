@@ -9,8 +9,8 @@ import {
   getDisplayNameFromBungeeBridge,
 } from './util'
 import { BungeeBridge, BungeeQuoteWithBuildTx } from './types'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 describe('Bungee Utils', () => {
   describe('toBridgeQuoteResult', () => {

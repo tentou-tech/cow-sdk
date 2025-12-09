@@ -25,9 +25,9 @@ import {
   TradeParameters,
   TradingSdk,
   WithPartialTraderParams,
-} from '@cowprotocol/sdk-trading'
-import { OrderBookApi, SigningScheme } from '@cowprotocol/sdk-order-book'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-trading'
+import { OrderBookApi, SigningScheme } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { BridgingSdkConfig } from '../types'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { createAdapters } from '../../../tests/setup'

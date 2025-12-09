@@ -1,8 +1,8 @@
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
 import { BridgeDeposit, BridgeHook, HookBridgeProvider, BridgeQuoteResult, QuoteBridgeRequest } from '../../types'
 import { HOOK_DAPP_BRIDGE_PROVIDER_PREFIX } from '../../const'
-import { EvmCall, SupportedChainId } from '@cowprotocol/sdk-config'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { EvmCall, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { MOCK_CALL } from './mockData'
 import { BaseMockBridgeProvider } from './BaseMockBridgeProvider'
 

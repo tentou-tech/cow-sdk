@@ -1,4 +1,4 @@
-import { TargetChainId } from '@cowprotocol/sdk-config'
+import { TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 export interface AvailableRoutesRequest {
   originChainId: string

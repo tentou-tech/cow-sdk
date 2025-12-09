@@ -5,7 +5,12 @@ import {
 } from './types'
 import { calculateUniqueOrderId } from './calculateUniqueOrderId'
 import { getOrderToSign } from './getOrderToSign'
-import { SupportedChainId, CowEnv, BARN_ETH_FLOW_ADDRESSES, ETH_FLOW_ADDRESSES } from '@cowprotocol/sdk-config'
+import {
+  SupportedChainId,
+  CowEnv,
+  BARN_ETH_FLOW_ADDRESSES,
+  ETH_FLOW_ADDRESSES,
+} from '@tentou-tech/cowprotocol-sdk-config'
 import { GAS_LIMIT_DEFAULT } from './consts'
 import { adjustEthFlowOrderParams, calculateGasMargin } from './utils/misc'
 import {
@@ -16,7 +21,7 @@ import {
   EthFlowOrderData,
   SignerLike,
 } from '@cowprotocol/sdk-common'
-import type { UnsignedOrder } from '@cowprotocol/sdk-order-signing'
+import type { UnsignedOrder } from '@tentou-tech/cowprotocol-sdk-order-signing'
 import { getDefaultSlippageBps } from './utils/slippage'
 
 export async function getEthFlowTransaction(

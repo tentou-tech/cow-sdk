@@ -1,5 +1,5 @@
-import { QuoteAndPost } from '@cowprotocol/sdk-trading'
-import { cowAppDataLatestScheme as latestAppData } from '@cowprotocol/sdk-app-data'
+import { QuoteAndPost } from '@tentou-tech/cowprotocol-sdk-trading'
+import { cowAppDataLatestScheme as latestAppData } from '@tentou-tech/cowprotocol-sdk-app-data'
 import {
   ReceiverAccountBridgeProvider,
   BridgeProvider,

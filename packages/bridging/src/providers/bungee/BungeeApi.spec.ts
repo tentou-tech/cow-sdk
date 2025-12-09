@@ -1,5 +1,5 @@
 import { BungeeApi } from './BungeeApi'
-import { SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { createAdapters } from '../../../tests/setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import fetchMock from 'jest-fetch-mock'

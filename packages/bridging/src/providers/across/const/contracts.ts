@@ -1,4 +1,4 @@
-import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 export const ACROSS_SPOOK_CONTRACT_ADDRESSES: Record<TargetChainId, string | undefined> = {
   // https://docs.across.to/reference/contract-addresses/mainnet-chain-id-1

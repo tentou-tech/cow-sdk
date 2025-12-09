@@ -8,7 +8,7 @@ import {
   ApiContext,
   CowEnv,
   PartialApiContext,
-} from '@cowprotocol/sdk-config'
+} from '@tentou-tech/cowprotocol-sdk-config'
 import { CowError, log, jsonWithBigintReplacer } from '@cowprotocol/sdk-common'
 import {
   Address,

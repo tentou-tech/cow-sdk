@@ -8,9 +8,9 @@ import {
   SigningStepManager,
   SwapAdvancedSettings,
   TradingAppDataInfo,
-} from '@cowprotocol/sdk-trading'
+} from '@tentou-tech/cowprotocol-sdk-trading'
 import { getGlobalAdapter, log, SignerLike } from '@cowprotocol/sdk-common'
-import { OrderBookApi, OrderKind } from '@cowprotocol/sdk-order-book'
+import { OrderBookApi, OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 import {
   BridgeQuoteAndPost,
   BridgeQuoteResult,

@@ -1,4 +1,4 @@
-import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@cowprotocol/sdk-config'
+import { AdditionalTargetChainId, SupportedChainId, TargetChainId } from '@tentou-tech/cowprotocol-sdk-config'
 
 /**
  * Chain config for Across. Includes all the supported tokens for the chain.

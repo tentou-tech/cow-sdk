@@ -1,9 +1,9 @@
 import { AdaptersTestSetup, createAdapters, TEST_ADDRESS } from './setup'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { OrderSigningUtils } from '../src/orderSigningUtils'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { UnsignedOrder } from '../src/types'
-import { OrderKind } from '@cowprotocol/sdk-order-book'
+import { OrderKind } from '@tentou-tech/cowprotocol-sdk-order-book'
 
 describe('OrderSigningUtils', () => {
   let adapters: AdaptersTestSetup

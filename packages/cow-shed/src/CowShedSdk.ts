@@ -1,4 +1,4 @@
-import { EvmCall, SupportedChainId } from '@cowprotocol/sdk-config'
+import { EvmCall, SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { CowShedHooks } from './contracts/CoWShedHooks'
 import {
   ContractsEcdsaSigningScheme as EcdsaSigningScheme,

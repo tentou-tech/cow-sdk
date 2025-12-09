@@ -1,5 +1,5 @@
 import { EthFlowContract, GenericContract, SettlementContract } from '@cowprotocol/sdk-common'
-import { EnrichedOrder } from '@cowprotocol/sdk-order-book'
+import { EnrichedOrder } from '@tentou-tech/cowprotocol-sdk-order-book'
 import { TradingTransactionParams as TransactionParams } from './types'
 
 // Fallback If we couldn't estimate gas for on-chain cancellation

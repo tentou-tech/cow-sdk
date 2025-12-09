@@ -1,4 +1,4 @@
-import { ETH_ADDRESS } from '@cowprotocol/sdk-config'
+import { ETH_ADDRESS } from '@tentou-tech/cowprotocol-sdk-config'
 import { Order } from './generated'
 import { EnrichedOrder } from './types'
 

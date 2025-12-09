@@ -11,8 +11,8 @@ import {
   polygon,
   sepolia,
   SupportedChainId,
-} from '@cowprotocol/sdk-config'
-import { hyperEvm } from '@cowprotocol/sdk-config/src/chains/details/hyperEvm'
+} from '@tentou-tech/cowprotocol-sdk-config'
+import { hyperEvm } from '@tentou-tech/cowprotocol-sdk-config/src/chains/details/hyperEvm'
 
 const DEFAULT_RPC_URL: Record<SupportedChainId, string | undefined> = {
   [SupportedChainId.MAINNET]: mainnet.rpcUrls.default.http[0],

@@ -1,6 +1,6 @@
 import { getAcrossDepositEvents, getCowTradeEvents } from './util'
 import { BridgingDepositParams } from '../../types'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { log, TransactionReceipt } from '@cowprotocol/sdk-common'
 
 export async function getDepositParams(

@@ -14,9 +14,9 @@ import {
   quoteBridgeRequest,
   tradeParameters,
 } from '../mock/bridgeRequestMocks'
-import { QuoteResultsWithSigner, SwapAdvancedSettings, TradingSdk } from '@cowprotocol/sdk-trading'
-import { OrderBookApi } from '@cowprotocol/sdk-order-book'
-import { SupportedChainId } from '@cowprotocol/sdk-config'
+import { QuoteResultsWithSigner, SwapAdvancedSettings, TradingSdk } from '@tentou-tech/cowprotocol-sdk-trading'
+import { OrderBookApi } from '@tentou-tech/cowprotocol-sdk-order-book'
+import { SupportedChainId } from '@tentou-tech/cowprotocol-sdk-config'
 import { BridgingSdkConfig } from '../types'
 import { setGlobalAdapter } from '@cowprotocol/sdk-common'
 import { createAdapters } from '../../../tests/setup'
