@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.0.0](https://github.com/tentou-tech/cow-sdk/compare/sdk-ethers-v5-adapter-v0.3.0...sdk-ethers-v5-adapter-v1.0.0) (2025-12-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* release cow-sdk v7
+
+### ✨ Features
+
+* add from/to fields for receipt ([#629](https://github.com/tentou-tech/cow-sdk/issues/629)) ([3dd3868](https://github.com/tentou-tech/cow-sdk/commit/3dd38682741ac93bfbd9b7d9a4fe79df7283dca0))
+* allow changing backoff and limiter per request ([#208](https://github.com/tentou-tech/cow-sdk/issues/208)) ([ebea5ca](https://github.com/tentou-tech/cow-sdk/commit/ebea5ca0858aeb89ae3e5d5407c8903c3ca5178d))
+* **bridge:** add NearIntents bridge provider ([#663](https://github.com/tentou-tech/cow-sdk/issues/663)) ([afd63bc](https://github.com/tentou-tech/cow-sdk/commit/afd63bce3765e2adc81b73357e233399111e3595))
+* release cow-sdk v7 ([6cd3e57](https://github.com/tentou-tech/cow-sdk/commit/6cd3e573687b1ffdbc0fdcb8cdbb414d88546e38))
+
+
+### 🐛 Bug Fixes
+
+* rename ether to ethers ([#504](https://github.com/tentou-tech/cow-sdk/issues/504)) ([eaf2705](https://github.com/tentou-tech/cow-sdk/commit/eaf2705f269352d3bc2908eb3335ff56ef426823))
+
+
+### 🔧 Miscellaneous
+
+* release main ([#505](https://github.com/tentou-tech/cow-sdk/issues/505)) ([0f98564](https://github.com/tentou-tech/cow-sdk/commit/0f985640c6e6f0852505cb3ad66c07bd3f23ea7b))
+* release main ([#511](https://github.com/tentou-tech/cow-sdk/issues/511)) ([5629bb2](https://github.com/tentou-tech/cow-sdk/commit/5629bb25f89b62e490b9819393036994688bf648))
+* release main ([#515](https://github.com/tentou-tech/cow-sdk/issues/515)) ([912e315](https://github.com/tentou-tech/cow-sdk/commit/912e31551440ebfa61d7d2f5c846d61162559448))
+* release main ([#542](https://github.com/tentou-tech/cow-sdk/issues/542)) ([e9f98a6](https://github.com/tentou-tech/cow-sdk/commit/e9f98a623cf81f4a9246550999914c88eb1fca30))
+* release main ([#575](https://github.com/tentou-tech/cow-sdk/issues/575)) ([2ef068b](https://github.com/tentou-tech/cow-sdk/commit/2ef068b851e5d114784f81ecbcd0fe3c512b7570))
+* release main ([#605](https://github.com/tentou-tech/cow-sdk/issues/605)) ([c9efd22](https://github.com/tentou-tech/cow-sdk/commit/c9efd22e6c934e95cb0e88a684b3a973b7ac3cce))
+* release main ([#620](https://github.com/tentou-tech/cow-sdk/issues/620)) ([b36394a](https://github.com/tentou-tech/cow-sdk/commit/b36394a2ba38957edb47ffc4451ea6624d66737b))
+* release main ([#635](https://github.com/tentou-tech/cow-sdk/issues/635)) ([bd5c1d9](https://github.com/tentou-tech/cow-sdk/commit/bd5c1d998c17379b2386942a0404ad4e0e232b4c))
+* release main ([#700](https://github.com/tentou-tech/cow-sdk/issues/700)) ([a0ce28d](https://github.com/tentou-tech/cow-sdk/commit/a0ce28d18e51b50e947bc104228686d558861391))
+* revert release ([#634](https://github.com/tentou-tech/cow-sdk/issues/634)) ([fc7bf61](https://github.com/tentou-tech/cow-sdk/commit/fc7bf61444619d4b2c3a3dd55b7ce52c197b1878))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @cowprotocol/sdk-common bumped to 1.0.0
+
 ## [0.3.0](https://github.com/cowprotocol/cow-sdk/compare/sdk-ethers-v5-adapter-v0.2.0...sdk-ethers-v5-adapter-v0.3.0) (2025-11-24)
 
 
